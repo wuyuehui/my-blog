@@ -61,11 +61,11 @@ module.exports = {
       poweredBy: false,
 
       // 是否显示使用的主题
-      poweredByTheme: true
+      poweredByTheme: true,
 
       // 添加自定义 footer (支持 HTML)
-      // custom:
-      //   'Copyright 2020-present <a href="https://github.com/wuyuehui" target="_blank">wuyuehui</a> | MIT License'
+      custom:
+        'Copyright 2020 <a href="http://www.beian.miit.gov.cn/" target="_blank">浙ICP备20004586号</a>'
     },
 
     // 个人信息卡片相关设置 (可选)
@@ -97,9 +97,9 @@ module.exports = {
     comments: {
       platform: 'github', // 可选，默认使用 'github'，还可以选择 'gitlab', 'bitbucket'。
       owner: 'wuyuehui',
-      repo: 'vuepress-theme-meteorlxy',
-      clientId: '1e90ac2b61f6df91fd84',
-      clientSecret: '0012286599d869d9b99a4341d13abe2359815380',
+      repo: 'my-blog',
+      clientId: '4fc6f70cb43f7cd63c09',
+      clientSecret: '2ecba14625e968f4247640b404284e5ae2ba63ea',
       autoCreateIssue: process.env.NODE_ENV !== 'development' // 可选，这样设置可以在开发环境下不自动创建 Issue
     },
 
